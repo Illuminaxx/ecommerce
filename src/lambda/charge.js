@@ -20,8 +20,8 @@ exports.handler = (event, context, callback) => {
   stripe.charges
     .create({
       amount: parseInt(data.amount),
-      currency: 'usd',
-      description: 'Dreamcast game shop',
+      currency: 'euros',
+      description: 'Geek bazar',
       source: data.token,
     })
     .then(({ status }) => {

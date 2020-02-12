@@ -1,6 +1,6 @@
 export default [
     {
-        id:1,
+        id: 1,
         title: 'Shenmue',
         price: 50,
         category: 'Dreamcast'
@@ -19,20 +19,21 @@ export default [
     },
     {
         id: 4,
-        title: 'Dragon ball Tome 1',
+        title: 'Dragonball Tome 1',
         price: 10,
         category: 'Manga',
     },
     {
         id: 5,
-        title: 'Nano block n°001',
+        title: 'Boule de Cristal DBZ',
         price: 14,
-        category: 'Jouets',
+        category: 'Produits dérivés',
     },
     {
         id: 6,
-        title: 'Mug Thermo reactif Dragonball Z',
+        title: 'Mug Dragonball Z',
         price: 20,
         category: 'Produits dérivés',
     }
+
 ]

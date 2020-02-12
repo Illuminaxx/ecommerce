@@ -7,7 +7,7 @@ export default function CartItem({ title, cost, quantity }) {
             <div>{title}</div>
             <div className="CartItem-details">
                 <div className="CartItem-quantity">Qty: {quantity}</div>
-                <div>${cost.toFixed(2)}</div>
+                <div>€ {cost.toFixed(2)}</div>
             </div>
         </div>
     );

@@ -1,11 +1,12 @@
 import React from 'react';
 import CartItem from './CartItem/CartItem';
+import {AiOutlineShoppingCart} from 'react-icons/ai';
 import './Cart.css';
 
 export default function Cart({ itemsInCart, totalCost }) {
     return(
         <div className="Cart">
-        <h2 className="Cart-title">Your shopping cart</h2>
+        <h2 className="Cart-title"><AiOutlineShoppingCart /> Your shopping cart</h2>
         {itemsInCart.length > 0 ? (
           <div>
             {itemsInCart.map(item => (
@@ -17,7 +18,7 @@ export default function Cart({ itemsInCart, totalCost }) {
               />
             ))}
             <div className="Cart-total-cost">
-              Total cost: ${totalCost.toFixed(2)}
+              Total cost: € {totalCost.toFixed(2)}
             </div>
           </div>
         ) : (
