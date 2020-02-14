@@ -2,7 +2,7 @@ import React from 'react';
 import './Product.css';
 import {FaCartArrowDown} from 'react-icons/fa';
 
-export default function Product({ onAddToCartClick, price, title, image }) {
+export default function Product({ onAddToCartClick, price, title }) {
     return(
         <div className="Product">
             <h2 className="Product-title">{title}</h2>
